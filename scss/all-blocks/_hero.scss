@@ -1,0 +1,47 @@
+.hero-section {
+    margin-bottom: 136px;
+}
+
+.hero {
+    padding: 117px 702px 116px 85px;
+    background-image: url("../images/Bitmap-images.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &__heading {
+        margin: 0;
+        margin-bottom: 32px;
+        padding: 0;
+        font-family: Fraunces 9pt;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+
+    &__desc {
+        margin: 0;
+        margin-bottom: 56px;
+        padding: 0;
+        width: 445px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+    .hero {
+        background-image: url("../images/Bitmap-images@2x.png");
+    }
+}

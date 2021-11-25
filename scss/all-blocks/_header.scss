@@ -1,0 +1,16 @@
+.site-header {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #FEFCF7;
+}
+
+.header {
+    margin: 44px 0 41px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
